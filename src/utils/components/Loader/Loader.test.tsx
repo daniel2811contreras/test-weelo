@@ -1,10 +1,10 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import App from "./App";
+import Loader from "@utils/components/Loader";
 
-describe("App", () => {
-  test("render App", () => {
-    render(<App />);
+describe("Loader", () => {
+  test("render Loader", () => {
+    render(<Loader />);
     expect(screen).toBeTruthy();
   });
 });

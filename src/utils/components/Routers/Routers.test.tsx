@@ -1,10 +1,10 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-import App from "./App";
+import Routers from "@utils/components/Routers";
 
-describe("App", () => {
-  test("render App", () => {
-    render(<App />);
+describe("Routers", () => {
+  test("render Routers", () => {
+    render(<Routers />);
     expect(screen).toBeTruthy();
   });
 });
